@@ -89,3 +89,7 @@ npx tailwindcss -i ./input.css -o ./output.css --watch
 ## Developed By
 Student Registration System Project  
 Made for learning & educational purpose.
+
+
+## Screenshot of Student Registration System
+![Homepage Screenshot](./screenshot.png)
