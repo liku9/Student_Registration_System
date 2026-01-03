@@ -18,6 +18,8 @@ let students = JSON.parse(localStorage.getItem("students")) || [];
           </td>
         </tr>`;
     });
+    //Local storage update
+
     localStorage.setItem("students", JSON.stringify(students));
   }
 
@@ -40,6 +42,8 @@ let students = JSON.parse(localStorage.getItem("students")) || [];
 
     let data = { name, sid, email, contact };
 
+    //edit functionality add
+
     if (editIndex === "") {
       students.push(data);
     } else {
@@ -50,6 +54,7 @@ let students = JSON.parse(localStorage.getItem("students")) || [];
     e.target.reset();
     processor();
   });
+//delete functionality add
 
   function deleteStudent(i) {
     students.splice(i, 1);
